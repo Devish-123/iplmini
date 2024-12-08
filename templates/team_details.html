@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ team.name }} Details{% endblock %}
+
+{% block content %}
+<h1>{{ team.name }}</h1>
+<p>Captain: {{ team.captain }}</p>
+<p>Stadium: {{ team.stadium }}</p>
+<!-- Add more team details here -->
+
+<a href="/">Back to Teams</a>
+{% endblock %}
